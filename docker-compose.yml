@@ -1,0 +1,25 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    environment:
+      # Send handoff emails to the local Mailpit inbox instead of a real server.
+      SMTP_HOST: mailpit
+      SMTP_PORT: "1025"
+      SMTP_STARTTLS: "false"
+      SMTP_USER: ""
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mailpit
+
+  mailpit:
+    image: axllent/mailpit:v1.21.8
+    ports:
+      - "8025:8025"
+normalize_text:
+  enabled: true
+evict_stale:
+  enabled: true
+load_config:
+  enabled: true
