@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Store Help Chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="chat" aria-labelledby="store-name">
+    <header class="chat__header">
+      <div class="chat__avatar" aria-hidden="true">?</div>
+      <div>
+        <h1 id="store-name">Store help</h1>
+        <p class="chat__status">Answers from our catalog and policies</p>
+      </div>
+    </header>
+
+    <ol class="chat__log" id="log" aria-live="polite"></ol>
+
+    <div class="chat__suggestions" id="suggestions"></div>
+
+    <form class="chat__composer" id="composer">
+      <label class="visually-hidden" for="message">Your question</label>
+      <input id="message" name="message" type="text" maxlength="1000" autocomplete="off"
+             placeholder="Ask about products, shipping, returns…" required>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <template id="handoff-template">
+    <form class="handoff">
+      <label>Your email
+        <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+      </label>
+      <button type="submit">Send to the team</button>
+      <p class="handoff__error" role="alert" hidden></p>
+    </form>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
+<section id="promote_user"></section>
+<section id="throttle_requests"></section>
+<section id="update_cache"></section>
