@@ -1,0 +1,221 @@
+{
+  "store": {
+    "name": "Driftwood Coffee Co.",
+    "domain": "shop.driftwood-coffee.example",
+    "currency": "USD",
+    "suggested_questions": [
+      "Do you ship to Canada?",
+      "Is the brushed steel kettle in stock?",
+      "Which grind should I buy for a French press?",
+      "Can I pause my subscription?"
+    ]
+  },
+  "products": [
+    {
+      "id": 7001,
+      "title": "Hearth Espresso Blend",
+      "handle": "hearth-espresso-blend",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Coffee",
+      "tags": "espresso, blend, chocolate, medium-dark",
+      "body_html": "<p>Our house espresso. A <strong>medium-dark</strong> blend of Brazil and Guatemala with notes of dark chocolate, toasted hazelnut and brown sugar. Built for espresso machines but great in a moka pot too.</p><p>340 g bag. Roasted to order Monday to Thursday.</p>",
+      "variants": [
+        { "id": 70011, "title": "Whole Bean", "sku": "HEB-340-WB", "price": "18.00", "compare_at_price": null, "available": true },
+        { "id": 70012, "title": "Espresso Grind", "sku": "HEB-340-EG", "price": "18.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7002,
+      "title": "Morning Ridge Ethiopia Yirgacheffe",
+      "handle": "morning-ridge-ethiopia",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Coffee",
+      "tags": ["single origin", "light roast", "floral", "pour-over"],
+      "body_html": "<p>Washed single origin from the Gedeo zone, Ethiopia. <em>Light roast</em> with jasmine, bergamot and lemon candy. Our pick for pour-over and filter brewing.</p><p>250 g bag.</p>",
+      "variants": [
+        { "id": 70021, "title": "Whole Bean", "sku": "MRE-250-WB", "price": "21.00", "compare_at_price": null, "available": true },
+        { "id": 70022, "title": "Filter Grind", "sku": "MRE-250-FG", "price": "21.00", "compare_at_price": null, "available": false }
+      ]
+    },
+    {
+      "id": 7003,
+      "title": "Swiss Water Decaf Colombia",
+      "handle": "swiss-water-decaf-colombia",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Coffee",
+      "tags": "decaf, caffeine-free, colombia, medium",
+      "body_html": "<p>Decaffeinated with the chemical-free Swiss Water Process (99.9% caffeine-free). Medium roast with caramel, red apple and milk chocolate.</p><p>340 g bag.</p>",
+      "variants": [
+        { "id": 70031, "title": "Whole Bean", "sku": "SWD-340-WB", "price": "17.00", "compare_at_price": null, "available": true },
+        { "id": 70032, "title": "Drip Grind", "sku": "SWD-340-DG", "price": "17.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7004,
+      "title": "Cold Brew Coarse Grind",
+      "handle": "cold-brew-coarse-grind",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Coffee",
+      "tags": "cold brew, coarse, french press, sale",
+      "body_html": "<p>A smooth, low-acid blend ground <strong>coarse</strong> for cold brew and French press. 1 kg bag makes about 6 litres of cold brew concentrate.</p>",
+      "variants": [
+        { "id": 70041, "title": "Default Title", "sku": "CBC-1000", "price": "36.00", "compare_at_price": "42.00", "available": true }
+      ]
+    },
+    {
+      "id": 7005,
+      "title": "Gooseneck Pour-Over Kettle",
+      "handle": "gooseneck-pour-over-kettle",
+      "vendor": "Fellow Craft",
+      "product_type": "Brewing Equipment",
+      "tags": "kettle, pour-over, gooseneck, stovetop",
+      "body_html": "<p>1 litre stovetop kettle with a precision gooseneck spout and built-in thermometer. Works on gas, electric and induction hobs.</p>",
+      "variants": [
+        { "id": 70051, "title": "Matte Black", "sku": "GPK-1L-BLK", "price": "59.00", "compare_at_price": null, "available": true },
+        { "id": 70052, "title": "Brushed Steel", "sku": "GPK-1L-STL", "price": "59.00", "compare_at_price": null, "available": false }
+      ]
+    },
+    {
+      "id": 7006,
+      "title": "Trailhead Hand Grinder",
+      "handle": "trailhead-hand-grinder",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Brewing Equipment",
+      "tags": "grinder, burr, travel",
+      "body_html": "<p>Stainless steel conical burr hand grinder with 30 click settings, from espresso to French press. Holds 25 g of beans. Folding handle for travel.</p>",
+      "variants": [
+        { "id": 70061, "title": "Default Title", "sku": "THG-01", "price": "89.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7007,
+      "title": "Glass Pour-Over Dripper 02",
+      "handle": "glass-pour-over-dripper-02",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Brewing Equipment",
+      "tags": "dripper, pour-over, glass, size 02",
+      "body_html": "<p>Heat-resistant borosilicate glass cone dripper, size 02 (brews 1 to 4 cups). Uses size 02 cone filters. Dishwasher safe.</p>",
+      "variants": [
+        { "id": 70071, "title": "Default Title", "sku": "GPD-02", "price": "28.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7008,
+      "title": "Paper Cone Filters 02 (100 pack)",
+      "handle": "paper-cone-filters-02",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Accessories",
+      "tags": "filters, size 02, unbleached",
+      "body_html": "<p>Unbleached, compostable paper filters that fit any size 02 cone dripper. 100 per pack.</p>",
+      "variants": [
+        { "id": 70081, "title": "Default Title", "sku": "PCF-02-100", "price": "7.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7009,
+      "title": "Stoneware Mug 12 oz",
+      "handle": "stoneware-mug-12oz",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Accessories",
+      "tags": "mug, stoneware, handmade",
+      "body_html": "<p>Handmade stoneware mug, 12 oz (355 ml). Each glaze is slightly different. Dishwasher and microwave safe.</p>",
+      "variants": [
+        { "id": 70091, "title": "Sand", "sku": "SWM-12-SND", "price": "22.00", "compare_at_price": null, "available": true },
+        { "id": 70092, "title": "Slate", "sku": "SWM-12-SLT", "price": "22.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7010,
+      "title": "Roaster's Choice Subscription",
+      "handle": "roasters-choice-subscription",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Subscription",
+      "tags": "subscription, monthly, single origin",
+      "body_html": "<p>Two different 250 g bags of whatever our head roaster is most excited about, shipped every month. Shipping is always free on subscriptions. Skip, pause or cancel any time from your account.</p>",
+      "variants": [
+        { "id": 70101, "title": "Whole Bean / Monthly", "sku": "RCS-2X250-WB", "price": "34.00", "compare_at_price": null, "available": true },
+        { "id": 70102, "title": "Ground / Monthly", "sku": "RCS-2X250-GR", "price": "34.00", "compare_at_price": null, "available": true }
+      ]
+    },
+    {
+      "id": 7011,
+      "title": "Barista Starter Kit",
+      "handle": "barista-starter-kit",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Bundle",
+      "tags": "bundle, gift, pour-over, sale",
+      "body_html": "<p>Everything you need to start brewing pour-over: the Gooseneck Pour-Over Kettle (Matte Black), Glass Pour-Over Dripper 02, a 100 pack of filters and a bag of Morning Ridge Ethiopia (whole bean).</p>",
+      "variants": [
+        { "id": 70111, "title": "Default Title", "sku": "BSK-01", "price": "139.00", "compare_at_price": "158.00", "available": true }
+      ]
+    },
+    {
+      "id": 7012,
+      "title": "Digital Gift Card",
+      "handle": "digital-gift-card",
+      "vendor": "Driftwood Coffee Co.",
+      "product_type": "Gift Card",
+      "tags": "gift card, gift",
+      "body_html": "<p>Delivered by email right after purchase. Never expires and can be used on anything in the store, including subscriptions.</p>",
+      "variants": [
+        { "id": 70121, "title": "$25", "sku": "GC-25", "price": "25.00", "compare_at_price": null, "available": true },
+        { "id": 70122, "title": "$50", "sku": "GC-50", "price": "50.00", "compare_at_price": null, "available": true },
+        { "id": 70123, "title": "$100", "sku": "GC-100", "price": "100.00", "compare_at_price": null, "available": true }
+      ]
+    }
+  ],
+  "policies": [
+    {
+      "id": "shipping",
+      "title": "Shipping",
+      "body": "We ship to the United States, Canada, the United Kingdom and the European Union. US standard shipping (3-5 business days) costs $5.95 and is free on orders over $50. US express shipping (1-2 business days) costs $14.95. International shipping to Canada, the UK and the EU is a flat $19 and takes 7-14 business days; customs duties are paid by the customer. We roast Monday to Thursday and ship within 1 business day of roasting. We ship to PO boxes with US standard shipping only."
+    },
+    {
+      "id": "returns",
+      "title": "Returns and refunds",
+      "body": "Unopened coffee and unused equipment in its original packaging can be returned within 30 days of delivery for a full refund. Opened coffee can't be returned, but our Taste Guarantee covers it: if you don't like a coffee, tell us within 30 days and we'll send a different one free, once per order. Items that arrive damaged are replaced free if you email a photo within 7 days of delivery. Refunds go back to the original payment method within 5-10 business days of us receiving the return. Gift cards are non-refundable."
+    },
+    {
+      "id": "subscriptions",
+      "title": "Subscriptions",
+      "body": "Subscriptions renew on the same day each month. You can skip a month, pause, change grind, or cancel at any time from the Subscriptions page in your account, as long as you do it before the renewal date. There are no cancellation fees. Shipping on subscriptions is always free in the US."
+    },
+    {
+      "id": "payment",
+      "title": "Payment methods",
+      "body": "We accept Visa, Mastercard, American Express, PayPal, Shop Pay, Apple Pay and Google Pay, plus Driftwood digital gift cards. Prices are in US dollars. Shop Pay Installments are available on orders over $100."
+    },
+    {
+      "id": "orders",
+      "title": "Order changes",
+      "body": "Orders can be changed or cancelled within 1 hour of being placed by emailing support. After that the order goes to the roastery and can't be changed. You'll get a tracking link by email as soon as your order ships."
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "body": "Email support@driftwood-coffee.example. The support team works Monday to Friday, 9am to 5pm Pacific time, and replies within one business day. For wholesale and cafe accounts, email wholesale@driftwood-coffee.example."
+    }
+  ],
+  "faqs": [
+    {
+      "id": "freshness",
+      "question": "How fresh is the coffee?",
+      "answer": "Every bag is roasted to order and printed with its roast date. Coffee tastes best between 4 days and 4 weeks after roasting. Store it in the sealed bag, away from light and heat. Don't refrigerate it."
+    },
+    {
+      "id": "grind-guide",
+      "question": "Which grind should I choose?",
+      "answer": "Espresso grind for espresso machines and moka pots, filter or drip grind for pour-over and drip machines, and coarse grind for French press and cold brew. If you own a burr grinder, whole bean stays fresh longest."
+    },
+    {
+      "id": "caffeine-free",
+      "question": "Do you sell decaf?",
+      "answer": "Yes. Our Swiss Water Decaf Colombia is 99.9% caffeine-free and decaffeinated without chemicals."
+    },
+    {
+      "id": "bags",
+      "question": "Are your bags recyclable?",
+      "answer": "Our bags are made from a plant-based, home-compostable film. Remove the valve and the tin tie first; those go in general waste."
+    }
+  ]
+}
