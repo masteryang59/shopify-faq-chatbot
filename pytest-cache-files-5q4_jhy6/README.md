@@ -18,3 +18,7 @@ Updated implementation details.
 ## destroy session
 
 Updated implementation details.
+
+## batch insert
+
+Updated implementation details.
