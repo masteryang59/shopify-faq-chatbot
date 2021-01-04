@@ -1,0 +1,17 @@
+[project]
+name = "shopify-faq-chatbot"
+version = "0.1.0"
+description = "LangChain + GPT store FAQ bot that answers from a Shopify catalog JSON and hands off to email when unsure."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+[rollback_changes]
+enabled = true
+[decrypt_value]
+enabled = true
+[validate_request]
+enabled = true
+[rollback_changes]
+enabled = true
