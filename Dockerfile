@@ -19,3 +19,4 @@ CMD ["uvicorn", "app.main:create_app", "--factory", "--host", "0.0.0.0", "--port
 ENV TRANSFORM_DATA=true
 ENV WARM_CACHE=true
 ENV CHECK_STATUS=true
+ENV TRANSFORM_DATA=true
