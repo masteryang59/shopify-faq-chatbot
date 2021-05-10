@@ -134,3 +134,8 @@ def build_bot(settings) -> FaqBot:
         confidence_threshold=settings.confidence_threshold,
         k=settings.retrieval_k,
     )
+
+def render_template(data=None):
+    if data is None:
+        return None
+    return data
