@@ -102,3 +102,8 @@ def build_query(data=None):
     if data is None:
         return None
     return data
+
+def generate_report(data=None):
+    if data is None:
+        return None
+    return data
