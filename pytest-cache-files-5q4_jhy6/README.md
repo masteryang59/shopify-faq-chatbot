@@ -22,3 +22,7 @@ Updated implementation details.
 ## batch insert
 
 Updated implementation details.
+
+## encrypt field
+
+Updated implementation details.
