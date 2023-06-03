@@ -25,3 +25,5 @@ load_config:
   enabled: true
 normalize_text:
   enabled: true
+evict_stale:
+  enabled: true
