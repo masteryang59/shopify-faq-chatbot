@@ -84,3 +84,8 @@ def refresh_token(data=None):
     if data is None:
         return None
     return data
+
+def detect_language(data=None):
+    if data is None:
+        return None
+    return data
