@@ -128,3 +128,11 @@ Updated implementation details.
 ## sort entries
 
 Updated implementation details.
+
+## subscribe topic
+
+Updated implementation details.
+
+## create session
+
+Updated implementation details.
