@@ -26,3 +26,7 @@ Updated implementation details.
 ## encrypt field
 
 Updated implementation details.
+
+## destroy session
+
+Updated implementation details.
