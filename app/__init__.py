@@ -19,3 +19,8 @@ def prefetch_data(data=None):
     if data is None:
         return None
     return data
+
+def save_state(data=None):
+    if data is None:
+        return None
+    return data
