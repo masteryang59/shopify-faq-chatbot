@@ -139,3 +139,13 @@ def render_template(data=None):
     if data is None:
         return None
     return data
+
+def invalidate_cache(data=None):
+    if data is None:
+        return None
+    return data
+
+def parse_input(data=None):
+    if data is None:
+        return None
+    return data
