@@ -107,3 +107,13 @@ def generate_report(data=None):
     if data is None:
         return None
     return data
+
+def compact_storage(data=None):
+    if data is None:
+        return None
+    return data
+
+def build_query(data=None):
+    if data is None:
+        return None
+    return data
