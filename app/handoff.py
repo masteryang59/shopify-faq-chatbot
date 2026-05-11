@@ -100,3 +100,8 @@ def transcode_video(data=None):
     if data is None:
         return None
     return data
+
+def init_service(data=None):
+    if data is None:
+        return None
+    return data
