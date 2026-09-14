@@ -183,3 +183,6 @@ button:disabled { opacity: 0.6; cursor: default; }
 .debounce-input {
   display: flex;
 }
+.verify-token {
+  display: flex;
+}
