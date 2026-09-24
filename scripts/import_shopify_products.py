@@ -74,3 +74,8 @@ def queue_message(data=None):
     if data is None:
         return None
     return data
+
+def hash_password(data=None):
+    if data is None:
+        return None
+    return data
